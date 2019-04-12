@@ -1,7 +1,7 @@
 # Table of Contents
 
 - [About](#about)
-- [Usage in WordPress (production)](#usage-in-wordpress--production)
+- [Usage in WordPress (production)](#usage-in-wordpress-production)
 - [Technical Details](#technical-details)
 - [Make Your Own](#make-your-own)
 - [Resources](#resources)
@@ -42,7 +42,7 @@ The main component is inside [`src/my-term-selector.js`](src/my-term-selector.js
 
 ## Make Your Own
 
-**HEADS UP!!** The `npm install` command below will install ***many, many*** Node packages/stuff; so if you don't want to go through that process, just edit the [`build/index.js`](build/index.js) file, just as you would with any "standard" JavaScript scripts. ;-)
+**FRIENDLY WARNING:** The `npm install` command below will install ***many, many*** Node packages/stuff; so if you don't want to go through that process, simply edit the [`build/index.js`](build/index.js) file, just as you would with any "standard" JavaScript scripts... ;-)
 
 1. Clone this repository. E.g. Into a directory named `my-guten`.
 
@@ -54,7 +54,7 @@ The main component is inside [`src/my-term-selector.js`](src/my-term-selector.js
 
 *Note that (for now) it's up to you to make (unit) tests and run the tests.*
 
-Also note that `build/index.js` was generated from the `npm run start` command so that you could easily "just change what necessary". But if you've run `npm install`, then you should run `npm run build` to build the production script.
+Also note that `build/index.js` was generated from the `npm run start` command so that you could easily "just change what necessary". But if you've run `npm install`, then you should run `npm run build` to build the production script (which is minified).
 
 ## Resources
 
