@@ -21,8 +21,7 @@ add_action( 'admin_enqueue_scripts', function(){
 	$post_types = [ 'post', 'my_cpt' ];
 	if ( in_array( $screen->id, $post_types ) ) {
 		// Don't forget that `wp-editor` must be added as a dependency.
-		$url = plugin_dir_url( __FILE__ ) . 'js/my-terms-selector.js';
-		wp_enqueue_script( 'my-terms-selector', $url, [ 'wp-editor' ] );
+		$url = plugin_dir_url( __FILE__ ) . 'js/my-term-selector.js';
+		wp_enqueue_script( 'my-term-selector', $url, [ 'wp-editor' ] );
 	}
 } );
-
