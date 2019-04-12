@@ -1,0 +1,27 @@
+{
+  "name": "my-term-selector",
+  "version": "1.0.0",
+  "description": "TODO",
+  "repository": "git@github.com:5ally/my-term-selector.git",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses --production",
+    "lint:js": "wp-scripts lint-js .",
+    "lint:pkg-json": "wp-scripts lint-pkg-json ."
+  },
+  "keywords": [
+    "WordPress",
+    "Gutenberg",
+    "block-editor",
+    "javascript"
+  ],
+  "author": "Sally CJ",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "3.1.0"
+  }
+}
