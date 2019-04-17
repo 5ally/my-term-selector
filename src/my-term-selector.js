@@ -368,7 +368,7 @@ class HierarchicalTermSelector extends Component {
 			__( 'Parent Category' ),
 			__( 'Parent Term' )
 		);
-		const noParentOption = `— ${ parentSelectLabel } —`;
+		const noParentOption = `â€” ${ parentSelectLabel } â€”`;
 		const newTermSubmitLabel = newTermButtonLabel;
 		const inputId = `editor-post-taxonomies__${ klass }-terms-input-${ instanceId }`;
 		const filterInputId = `editor-post-taxonomies__${ klass }-terms-filter-${ instanceId }`;
@@ -478,4 +478,3 @@ export default compose( [
 	withInstanceId,
 	//withFilters( 'editor.PostTaxonomyType' ), // Purposely commented out!
 ] )( HierarchicalTermSelector );
-

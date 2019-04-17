@@ -912,7 +912,7 @@ function (_Component) {
       var newTermButtonLabel = labelWithFallback('add_new_item', Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Add new category'), Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Add new term'));
       var newTermLabel = labelWithFallback('new_item_name', Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Add new category'), Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Add new term'));
       var parentSelectLabel = labelWithFallback('parent_item', Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Parent Category'), Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_11__["__"])('Parent Term'));
-      var noParentOption = "\uFFFD ".concat(parentSelectLabel, " \uFFFD");
+      var noParentOption = "\u2014 ".concat(parentSelectLabel, " \u2014");
       var newTermSubmitLabel = newTermButtonLabel;
       var inputId = "editor-post-taxonomies__".concat(klass, "-terms-input-").concat(instanceId);
       var filterInputId = "editor-post-taxonomies__".concat(klass, "-terms-filter-").concat(instanceId);
